@@ -1,20 +1,22 @@
 {
-  "name": "webapi-deployment",
+  "name": "talweg-backend-node",
   "version": "1.0.0",
-  "description": "Guided project for **Web API IV** module.",
+  "description": "backend for talweg sharing service",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LambdaSchool/webapi-deployment.git"
+    "url": "git+https://github.com/dgbailey/talweg-backend.git."
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/LambdaSchool/webapi-deployment/issues"
+    "email": "bailey.dust@gmail.com"
   },
   "homepage": "https://github.com/LambdaSchool/webapi-deployment#readme",
   "dependencies": {
@@ -24,6 +26,7 @@
     "sqlite3": "^4.0.6"
   },
   "devDependencies": {
-    "knex-cleaner": "^1.1.4"
+    "knex-cleaner": "^1.1.4",
+    "nodemon": "^1.18.11"
   }
 }
