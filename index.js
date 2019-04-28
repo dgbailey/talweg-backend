@@ -1,3 +1,5 @@
+require('dotenv').config()
+//merging env variables into process.env
 const server = require('./api/server.js');
 
 
